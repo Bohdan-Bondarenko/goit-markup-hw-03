@@ -136,6 +136,7 @@ color: #FFFFFF;
 }
 /* button */
 .button{
+    font-family: inherit;
 background-color: #4D5AE5;
 cursor: pointer;
 width: 170px;
