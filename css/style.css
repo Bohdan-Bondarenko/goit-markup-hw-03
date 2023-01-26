@@ -36,19 +36,30 @@
 }
 ul{
     list-style: none;
+    margin: 0px;   
+    padding: 0px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 a{
     text-decoration: none;
+    color: inherit;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 body{
    background-color: var(--body-background-clr);
    font-family: 'Roboto',sans-serif;
-   max-width: 1440px;
-   max-height: 2590px;
+ 
 }
 .header{
     border-bottom: 1px solid var(--accent-clr);
-   margin-bottom: 81px;
+
     
     
     
@@ -56,23 +67,8 @@ body{
 .header_container{
     display: flex;
     align-items: center;
-    flex-direction:center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     height: 72px;
 
-}
-.container{
-    width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right:auto;
-}
-.navigation{
-    text-align: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 /* logo */
 .web{
@@ -109,13 +105,8 @@ color: #2E2F42;
 }
 .contacts{
     display: flex;
-    margin-right: auto;
-    text-align: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: auto;
-    margin-right: 0px;
 }
 .menu-link{
 font-weight: 500;
@@ -179,22 +170,19 @@ top: 24px;
 .hero{
     background:var(--hero-background-clr);
     text-align: center;
-height: 600px;
-left: 0px;
-top: 153px;
 margin-top: 81px;
     
 }
 .hero-h1{
-   padding-top: 188px;
-   padding-bottom: 48px;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-margin: 0 auto;
-max-width: 498px;
+    padding-top: 188px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:var(--body-background-clr);
+    margin: 0px auto;
+    padding-bottom: 48px;
+    width: 498px;
 }
 /* button */
 .button{
@@ -220,10 +208,11 @@ margin-bottom: 188px;
 .ul-container{
     display: flex;
     align-items: center;
-    flex-direction:center;
+    gap: 24px;
+
 }
 .post{
-    margin-top: 120px;
+    padding-top: 120px;
 }
 .post-li{
     gap: 10px;
@@ -248,8 +237,7 @@ margin-bottom: 188px;
 }
 /* what are we doing */
 .container-title{
-    margin-top: 120px;
-    margin-bottom: 0px;
+padding-top: 120px;
 }
 .title{
 font-weight: 700;
@@ -259,15 +247,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 text-align: center;
-margin-top: 0px;
-margin-bottom: 72px;
+margin: 0px;
+padding-bottom: 72px;
 }
 .title-ul{
     display: flex;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 120px;
+    margin: 0px;
     padding: 0px;
+    padding-bottom: 120px;
 }
 .title-li{
   width: 360px;
@@ -285,18 +272,17 @@ margin-bottom: 72px;
 .list-card{
     background-color: var(--body-background-clr);
     margin-right: 24px;
-    margin-bottom: 120px;
 }
 .list-card:last-child{
     margin-right: 0px;
-    
 }
 .list-ul{
     display: flex;
     text-align: center;
     padding: 0px;
-    margin-top: 0px;
-margin-bottom: 0px;
+    margin: 0px;
+    padding-bottom: 120px;
+
 }
 .personnal{
 font-weight: 700;
@@ -306,8 +292,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
-margin-top: 0;
-margin-bottom: 72px;
+margin: 0px;
+padding-bottom: 72px;
 padding-top: 120px;
 }
 .name-person{
@@ -319,10 +305,10 @@ color: #2E2F42;
 margin: 0px 0px 8px 0px;
 }
 .card-content{
-   margin-top: 32px;
-   margin-right: 16px;
-   margin-bottom: 32px;
-   margin-left: 16px;
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 .work{
     margin: 0px;
@@ -343,6 +329,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--accent-clr);
+padding-top: 16px;
 }
 .footer{
 background: #2E2F42;
@@ -366,8 +353,8 @@ line-height: 1.16;
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 .button-portfolio{
     background-color: #F4F4FD;
@@ -377,19 +364,21 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color:var(--primari-brand-clr)
+color:var(--primari-brand-clr);
+padding: 12px 24px;
+border: 1px solid var(--accent-clr);
+border-radius: 4px;
 }
 .button-portfolio:hover{
     background-color: #4D5AE5;
     color: var(--body-background-clr);
 }
-
 .button-all{
     width: 69px;
 height: 48px;
 }
 .button-web-site{
-    width: 116px;
+width: 118px;
 height: 48px;
 }
 .button-app{
@@ -423,22 +412,33 @@ height: 48px;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-bottom: 48px;
+    padding-bottom: 120px;
 }
 .work-content{
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .work-p{
     margin: 0px;
 }
 .border{
     border: 1px solid var(--accent-clr);
+    border-top: none;
 }
 .portfolio-item{
-    width: calc((100% - 24px * 2) / 3);
+    width:360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
 }
-.footer-portfolio{
-margin-top: 120px;
+.portfolio-item:nth-child(3){
+    margin-right: 0px;
+}
+.portfolio-item:nth-child(6){
+    margin-right: 0px;
+}
+.portfolio-item:nth-child(9){
+    margin-right: 0px;
+}
+.portfolio-item:nth-last-child(-n + 3){
+    margin-bottom: 0px;
 }
