@@ -423,6 +423,9 @@ height: 48px;
 .work-p{
     margin: 0px;
 }
+.work-p{
+    margin: 0px;
+}
 .border{
     border: 1px solid var(--accent-clr);
     border-top: none;
