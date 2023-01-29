@@ -195,7 +195,7 @@ top: 24px;
     letter-spacing: 0.02em;
     color:var(--body-background-clr);
     margin: 0px auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     width: 498px;
 }
 /* button */
@@ -275,7 +275,7 @@ margin-bottom: 72px;
 .section-our-team{
     background-color: var(--light-clr);
     pad: 0px;
-    
+    padding-bottom: 120px;
 }
 .list-card{
     background-color: var(--body-background-clr);
@@ -289,7 +289,7 @@ margin-bottom: 72px;
     text-align: center;
     padding: 0px;
     margin: 0px;
-    padding-bottom: 120px;
+    
 
 }
 .personnal{
@@ -335,7 +335,7 @@ margin-top: 16px
 }
 .footer{
 background: #2E2F42;
-height: 310px;
+padding: 100px 0;
 
 }
 .studio-footer{
@@ -378,28 +378,6 @@ border-radius: 4px;
     background-color: #4D5AE5;
     color: var(--body-background-clr);
 }
-.button-all{
-    width: 69px;
-height: 48px;
-}
-.button-web-site{
-width: 118px;
-height: 48px;
-}
-.button-app{
-    width: 78px;
-height: 48px;
-
-}
-.button-design{
-    width: 101px;
-height: 48px;
-
-}
-.button-marketing{
-    width: 126px;
-height: 48px;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -422,13 +400,14 @@ height: 48px;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border: 1px solid var(--accent-clr);
+    border-top: none;
 }
 .work-p{
     margin: 0px;
 }
 .border{
-    border: 1px solid var(--accent-clr);
-    border-top: none;
+
 }
 .portfolio-item{
     width:360px;
