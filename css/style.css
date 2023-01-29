@@ -321,9 +321,7 @@ margin: 0px 0px 8px 0px;
     margin: 0px;
 }
 /* footer */
-.footer-container{
-padding-top: 100px;
-}
+
 .footer-description{
     max-width: 264px;
 font-weight: 400;
@@ -405,9 +403,6 @@ border-radius: 4px;
 }
 .work-p{
     margin: 0px;
-}
-.border{
-
 }
 .portfolio-item{
     width:360px;
